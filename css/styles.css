@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  margin: 20px 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+ul,
+.parent {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+img {
+  margin: 0 auto;
+  max-width: 80vw;
+  align-self: center;
+}
+
+h1 {
+  font-size: 2em !important;
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+li {
+  list-style: none;
+}
+.imageRef {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin: 10px;
+}
+figure {
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+}
+figcaption {
+  display: flex;
+  width: 50vw;
+}
